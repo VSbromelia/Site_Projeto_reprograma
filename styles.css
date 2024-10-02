@@ -1,0 +1,94 @@
+/* Estilo do título */
+h1 {
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 46px;
+  font-weight: lighter;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+}
+
+/* estilo do subtitulo do em breve*/
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+/* Estilo do cabeçalho */
+header {
+  background-color: #5e93b7;
+  height: 147px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/* Estilo da logo */
+header img {
+  width: 146px;
+  height: 147px;
+  object-fit: contain;
+}
+
+/* Estilo dos links do menu */
+nav {
+  display: flex;
+  gap: 50px;
+}
+
+.links_nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.links_nav_nav {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Banner com imagem de fundo */
+.banner {
+  background-image: url("assets/homemcachaceiro.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 537px;
+  position: relative;
+}
+
+/* Estilo do conteúdo */
+p {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.6;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  width: 200px;
+  height: 150px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+}
+footer {
+  background-color: #5e93b7;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+}
